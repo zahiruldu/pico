@@ -1,1 +1,140 @@
 /* You can add global styles to this file, and also import other style files */
+@import "~@angular/material/prebuilt-themes/indigo-pink.css";
+body {
+    background: tomato;
+}
+
+
+/*header design css*/
+
+.header {
+    margin: 15px 0 0px;
+}
+
+#logoImg {
+    width: 70px;
+    height: 70px;
+    display: inline-flex;
+    justify-content: center;
+    overflow: hidden;
+}
+
+img {
+    width: auto;
+    height: 100%;
+}
+
+#navbar {
+    clear: both;
+    width: 85%;
+    display: inline;
+}
+
+ul.nav.nav-pills {
+    display: inline-block;
+    vertical-align: super;
+    margin-bottom: 10px;
+}
+
+ul.nav.nav-pills.rightNav {
+    float: right;
+}
+
+.nav-pills>li {
+    color: #96969a;
+    text-align: center;
+}
+
+.nav>li>a {
+    color: #96969a;
+    margin: 10px 15px;
+    padding: 0;
+}
+
+#addPhoto {
+    text-align: center;
+    padding: 50px 20px;
+    color: #96969a;
+    width: 300px;
+    left: 0;
+    position: absolute;
+    margin: auto;
+    border: 1px dashed #96969a;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    height: 170px;
+    cursor: pointer;
+}
+
+i.fa.fa-camera {
+    font-size: 32px;
+    margin-bottom: 10px;
+    color: darkgray;
+}
+
+.actionBar {
+    padding-right: 0;
+}
+
+.list-group-item:first-child,
+.list-group-item:last-child {
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+a.list-group-item {
+    color: #96969a;
+    background: #1A1A20;
+    border: none;
+    text-align: center;
+}
+
+.nav>li>a:hover {
+    color: #ac975e;
+    background: none;
+}
+
+a.list-group-item:hover,
+.nav>li>a:focus {
+    color: #ac975e;
+    background: #26262b;
+}
+
+.list-group-item.active,
+.list-group-item.active:focus,
+.list-group-item.active:hover {
+    color: #ac975e;
+    background-color: #ebebf0;
+}
+
+.col-md-3.menuBar {
+    height: 100%;
+}
+
+button.list-group-item {
+    margin: 10px 0;
+    text-transform: uppercase;
+    font-size: 12px;
+    background: #F1F1F5;
+    font-weight: bold;
+}
+
+i.fa.fa-angle-down {
+    float: right;
+}
+
+.row {
+    height: 484px;
+}
+
+.col-md-7.mainBody {
+    background: #DCDCDC;
+    height: 100%;
+    position: relative;
+}
+
+.col-md-1.addBox {
+    background: #353336;
+    height: 100%;
+}
