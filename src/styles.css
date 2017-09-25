@@ -1,9 +1,18 @@
 /* You can add global styles to this file, and also import other style files */
 @import "~@angular/material/prebuilt-themes/indigo-pink.css";
 body {
-    background: white;
+    background: #1A1A20;
 }
-
+md-card.mat-card{
+    background: #1A1A20;
+}
+#mainBody {
+    padding: 0;
+    display: flex;
+}
+#mainHeader {
+    padding: 10px 20px;
+}
 
 /*header design css*/
 
@@ -38,6 +47,7 @@ ul.nav.nav-pills {
 
 ul.nav.nav-pills.rightNav {
     float: right;
+    margin-top: 3px;
 }
 
 .nav-pills>li {
@@ -109,7 +119,7 @@ a.list-group-item:hover,
 }
 
 .col-md-3.menuBar {
-    height: 100%;
+    height: auto;
 }
 
 button.list-group-item {
@@ -128,13 +138,13 @@ i.fa.fa-angle-down {
     height: 484px;
 }
 
-.col-md-7.mainBody {
+.col-md-7.imageUpload {
     background: #DCDCDC;
-    height: 100%;
+    height: auto;
     position: relative;
 }
 
 .col-md-1.addBox {
     background: #353336;
-    height: 100%;
+    height: auto;
 }
