@@ -7,10 +7,14 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'app';
-   tiles = [
-    {text: 'One', cols: 3, rows: 1, color: 'lightblue'},
-    {text: 'Two', cols: 1, rows: 2, color: 'lightgreen'},
-    {text: 'Three', cols: 1, rows: 1, color: 'lightpink'},
-    {text: 'Four', cols: 2, rows: 1, color: '#DDBDF1'},
+  logoImg = "assets/images/logo.png";
+  cropOptions: any[] = [
+    {value: 'freedom', name: 'Freedom'},
+    {value: 'origin', name: 'Sample as origin'},
+    {value: 'square', name: 'Square'},
+    {value: 'golden', name: 'Golden Radio'},
+    {value: 'iPhone', name: '2*3 (iPhone)'}
+    
   ];
+  
 }
