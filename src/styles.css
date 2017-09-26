@@ -32,32 +32,41 @@ img {
     width: auto;
     height: 100%;
 }
-
+ 
 #navbar {
     clear: both;
     width: 85%;
     display: inline;
 }
 
-ul.nav.nav-pills {
+.leftNav {
     display: inline-block;
-    vertical-align: super;
-    margin-bottom: 10px;
+    vertical-align: text-bottom;
+    margin-bottom: 15px;
 }
 
-ul.nav.nav-pills.rightNav {
+.rightNav {
     float: right;
-    margin-top: 3px;
+    display: inline-flex;
+    margin-top: 7px;
 }
 
-.nav-pills>li {
+button.mat-button {
     color: #96969a;
     text-align: center;
 }
-
-.nav>li>a {
+ul {
+    padding-left: 15px;
+    margin-bottom: 0;
+}
+li {
+    display: inline-block;
+    padding: 10px 20px;
+    text-align: center;
+}
+li>a {
     color: #96969a;
-    margin: 10px 15px;
+    
     padding: 0;
 }
 
@@ -100,13 +109,14 @@ a.list-group-item {
     text-align: center;
 }
 
-.nav>li>a:hover {
+button.mat-button:hover, li>a:hover, li>a:active, a:focus {
     color: #ac975e;
     background: none;
+    text-decoration: none;
 }
 
 a.list-group-item:hover,
-.nav>li>a:focus {
+button.mat-button:focus {
     color: #ac975e;
     background: #26262b;
 }
@@ -118,8 +128,11 @@ a.list-group-item:hover,
     background-color: #ebebf0;
 }
 
-.col-md-3.menuBar {
-    height: auto;
+.menuBar {
+    height: 504px;
+    width: 355px;
+    overflow-y: auto;
+    overflow-x: hidden;
 }
 
 button.list-group-item {
@@ -147,4 +160,10 @@ i.fa.fa-angle-down {
 .col-md-1.addBox {
     background: #353336;
     height: auto;
+}
+md-expansion-panel.mat-expansion-panel {
+    margin: 10px 30px;
+}
+md-panel-title.mat-expansion-panel-header-title {
+    font-size: 12px;
 }
